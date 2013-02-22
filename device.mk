@@ -17,7 +17,8 @@
 # rild
 PRODUCT_PACKAGES := \
     rild \
-    BasicSmsReceiver
+    BasicSmsReceiver \
+    Mms
 
 # Permissions
 PRODUCT_COPY_FILES += \
