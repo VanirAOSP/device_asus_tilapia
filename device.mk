@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES := \
     device/asus/tilapia/init.tilapia.rc:root/init.grouper.rc \
-    device/asus/tilapia/proprietary/apns-conf.xml:etc/apns-conf.xml
+    device/asus/tilapia/proprietary/apns-conf.xml:system/etc/apns-conf.xml
 
 DEVICE_PACKAGE_OVERLAYS := \
     device/asus/tilapia/overlay
