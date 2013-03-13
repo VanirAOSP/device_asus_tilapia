@@ -244,4 +244,7 @@
     <!-- reference volume index for music stream to limit headphone volume and display warning -->
     <integer name="config_safe_media_volume_index">6</integer>
 
+    <!-- Setting to false will disable the IME switcher implementation for tablets -->
+	<bool name="config_show_IMEswitcher">true</bool>
+
 </resources>
