@@ -25,8 +25,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
 PRODUCT_COPY_FILES := \
-    device/asus/tilapia/init.tilapia.rc:root/init.grouper.rc \
-    device/asus/tilapia/proprietary/apns-conf.xml:system/etc/apns-conf.xml
+    device/asus/tilapia/fstab.grouper:root/fstab.grouper \
+    device/asus/tilapia/init.tilapia.rc:root/init.grouper.rc
 
 DEVICE_PACKAGE_OVERLAYS := \
     device/asus/tilapia/overlay
