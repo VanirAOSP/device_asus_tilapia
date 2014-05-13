@@ -29,6 +29,9 @@
 # we set USE_PROPRIETARY_AUDIO_EXTENSIONS to true in the proprietary variant as
 # well.
 
+TARGET_KERNEL_SOURCE := kernel/asus/grouper
+TARGET_KERNEL_CONFIG := cyanogenmod_grouper_defconfig
+
 USE_CAMERA_STUB := true
 USE_PROPRIETARY_AUDIO_EXTENSIONS := false
 
