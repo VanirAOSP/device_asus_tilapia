@@ -35,7 +35,8 @@ TARGET_KERNEL_CONFIG := cyanogenmod_grouper_defconfig
 USE_CAMERA_STUB := true
 USE_PROPRIETARY_AUDIO_EXTENSIONS := false
 
-TARGET_RECOVERY_UI_LIB := librecovery_ui_tilapia
+TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_tilapia
+TARGET_RECOVERY_UPDATER_EXTRA_LIBS := libIMCdownload libPrgHandler
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/asus/tilapia
 
@@ -43,3 +44,5 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/asus/tilapia
 include device/asus/grouper/BoardConfigCommon.mk
 
 TARGET_RECOVERY_FSTAB = device/asus/tilapia/fstab.grouper
+
+MALLOC_IMPL := dlmalloc
